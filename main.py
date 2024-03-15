@@ -1,8 +1,5 @@
-# Для выполнения этой задачи, вам понадобится использовать модули os, logging и collections.namedtuple. Вот пример кода, который решает задание:
+# Для выполнения этой задачи понадобится использовать модули os, logging и collections.namedtuple. Вот пример кода, который решает задание:
 
-python
-Copy code
-import os
 import logging
 from collections import namedtuple
 
@@ -52,9 +49,8 @@ if __name__ == "__main__":
     # Сбор информации о содержимом директории и запись в файл
     collect_directory_info(directory_path)
     print("Directory info collected and logged successfully.")
-# Сохраните этот код в файле с расширением .py, например, directory_info_collector.py. Запустите его из командной строки, указав путь до директории в качестве аргумента. Например:
+# Сохраним этот код в файле с расширением .py, например, directory_info_collector.py. Запустите его из командной строки, указав путь до директории в качестве аргумента. Например:
 
-bash
-Copy code
+
 python directory_info_collector.py /path/to/directory
-Затем вы найдете информацию о содержимом указанной директории в файле directory_info.log, который будет создан в том же каталоге, откуда был запущен скрипт.
+Затем найдем информацию о содержимом указанной директории в файле directory_info.log, который будет создан в том же каталоге, откуда был запущен скрипт.
